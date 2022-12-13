@@ -1,3 +1,10 @@
 # requirements.txt
 docs/
 env/
+.cache/
+.github/
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+.local/
+.gitignore

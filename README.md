@@ -65,11 +65,38 @@ make clean
 make html
 ```
 
+Build and Run
+
 ```
 docker build -t fiddle .
-docker run -p 8888:8888 -v $(pwd):/home/jovyan/ fiddle
+docker run -p 8888:8888 -v $(pwd):/home/jovyan fiddle
 ```
+
+List Docker images
+
+```
+docker images
+```
+
+Select correct container and copy the tag
+
+```
+docker tag <tag> aabutchy/fiddle:<versionname>
+docker push aabutchy/fiddle:<versionname>
+```
+
+where <tag> might look like = "7fb16f9f8b1d" (minus the quotes)
+and <versionname> might look like = "firstpush" (minus the quotes)
+
+Docker pull from container:
+
+```
+docker pull aabutchy/fiddle
+docker run -p 8888:8888 -v $(pwd):/home/jovyan aabutchy/fiddle:firstpush
+```
+
 example
+
 ```
 docker run -p 8888:8888 -v $(pwd):/home/jovyan/work jupyter/minimal-notebook
 ```

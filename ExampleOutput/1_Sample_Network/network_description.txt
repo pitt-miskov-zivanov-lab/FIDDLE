@@ -1,0 +1,40 @@
+------------------ Specified Network Characteristics ------------------
+Network Type: 5
+Specified Nodes: 10
+Specified Probability of Positive Edges: 0.5
+Specified 'edge_probability' (only affects Type 2 and 4): 0.5
+Specified 'attaching_edges' (only affects Type 5): 2
+
+-------------------- Actual Network Characteristics -------------------
+Number of Actual Nodes: 10
+Number of Directed Edges: 16
+Number of Positive Edges: 11
+Number of Negative Edges: 5
+Actual Probability of Positive Edges: 0.6875
+
+----------------- Descriptive Network Characteristics -----------------
+Network Density: 0.17777777777777778
+Undirected Edges: 32
+Network Average Degree: 3.2
+Undirected Model Diameter: 3
+Undirected Model Clustering: 0.599047619047619
+
+---------------------------- List of Edges ---------------------------
+['0', '1', '-']
+['0', '2', '+']
+['0', '6', '+']
+['0', '8', '+']
+['1', '3', '-']
+['1', '4', '+']
+['1', '6', '+']
+['1', '7', '+']
+['1', '8', '-']
+['1', '9', '+']
+['2', '3', '-']
+['2', '4', '+']
+['2', '5', '-']
+['3', '5', '+']
+['3', '7', '+']
+['3', '9', '+']
+
+
