@@ -8,3 +8,4 @@ env/
 .jupyter/
 .local/
 .gitignore
+.vscode/
