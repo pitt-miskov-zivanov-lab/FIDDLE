@@ -70,6 +70,10 @@ Build and Run
 ```
 docker build -t fiddle .
 docker run -p 8888:8888 -v $(pwd):/home/jovyan fiddle
+OR #tODO
+docker run -it -p 8888:8888 -u="jovyan" -v $(pwd):/home/jovyan fiddle
+OR #todo
+docker run -it --rm -p 8888:8888 fiddle jupyter notebook --NotebookApp.default_url=/lab/ --ip=0.0.0.0 --port=8888
 ```
 
 List Docker images
