@@ -22,8 +22,8 @@ imagesize==1.4.1
 importlib-metadata==4.8.3
 # ipykernel==6.19.2
 ipykernel
-ipython==8.7.0
-# ipython
+# ipython==8.7.0
+ipython
 jedi==0.18.2
 Jinja2==3.0.3
 jupyter_client==7.1.2
