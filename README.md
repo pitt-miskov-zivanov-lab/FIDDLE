@@ -47,7 +47,7 @@ FIDDLE (Finding Interactions using Diagram Driven modeL Extension) is a tool to 
 
 ### Using FIDDLE:
 
-Butchy, Adam A., Cheryl A. Telmer, Natasa Miskov-Zivanov. "Automating Knowledge-Driven Model Recommendation: Methodology, Evaluation, and Key Challenges." arXiv preprint arXiv:2301.11397 (2023).
+_Butchy, Adam A., Cheryl A. Telmer, Natasa Miskov-Zivanov. "Automating Knowledge-Driven Model Recommendation: Methodology, Evaluation, and Key Challenges." arXiv preprint arXiv:2301.11397 (2023)._
 
 ### Using the DISH simulator:
 
