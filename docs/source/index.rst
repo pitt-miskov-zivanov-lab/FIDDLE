@@ -5,32 +5,13 @@ FIDDLE (Finding Interactions using Diagram Driven modeL Extension) is a tool to 
 
 .. toctree::
    :maxdepth: 1
+   :glob:
 
    p_installation
    p_tutorial
    p_citing
    p_functions
 
+
 .. image:: /_static/FIDDLE.png
    :align: center
-
-   .. Fiddl documentation master file, created by
-   sphinx-quickstart on Sun Jan 15 10:16:54 2023.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to Fiddl's documentation!
-=================================
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

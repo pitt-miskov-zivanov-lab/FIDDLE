@@ -3,9 +3,7 @@ Installation
 
 TODO this is how you install this package
 ::
-   git clone REPOLINK
+   git clone https://github.com/pitt-miskov-zivanov-lab/FIDDLE.git
    cd FIDDLE
    python -m venv env
    pip install -r requirements.txt
-
-Now this is is an example of content
