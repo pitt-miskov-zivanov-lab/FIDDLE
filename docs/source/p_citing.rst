@@ -5,7 +5,7 @@ Citation
 --------
 Using `FIDDLE <https://arxiv.org/abs/2301.11397>`_
 ::
-   Butchy, Adam A., Cheryl A. Telmer, and Natasa Miskov-Zivanov. "Automating Knowledge-Driven Model Recommendation: Methodology, Evaluation, and Key Challenges." arXiv preprint arXiv:2301.11397 (2023).
+   Butchy, Adam A., Cheryl A. Telmer, Natasa Miskov-Zivanov. "Automating Knowledge-Driven Model Recommendation: Methodology, Evaluation, and Key Challenges." arXiv preprint arXiv:2301.11397 (2023).
 
 Using the `Dish Simulator <https://arxiv.org/abs/1705.02660>`_
 ::

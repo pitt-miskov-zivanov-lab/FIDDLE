@@ -5,7 +5,7 @@
 FIDDLE (Finding Interactions using Diagram Driven modeL Extension) is a tool to automatically assemble or extend models with the knowledge extracted from published literature. The two main methods developed as part of FIDDLE are called Breadth First Addition (BFA) and Depth First Addition (DFA), and they are based on network search algorithms.
 
 [![Documentation Status](https://readthedocs.org/projects/melody-fiddle/badge/?version=latest)](https://melody-fiddle.readthedocs.io/en/latest/?badge=latest)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pitt-miskov-zivanov-lab/FIDDLE/HEAD?labpath=https%3A%2F%2Fgithub.com%2Fpitt-miskov-zivanov-lab%2FFIDDLE%2Fblob%2Fmain%2FTutorial.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pitt-miskov-zivanov-lab/FIDDLE/HEAD)
 
 ## Contents
 
@@ -34,6 +34,7 @@ FIDDLE (Finding Interactions using Diagram Driven modeL Extension) is a tool to 
 ## Tutorial
 
 - see [`Tutorial.ipynb`](Tutorial.ipynb)
+- also available on [`Binder`](https://mybinder.org/v2/gh/pitt-miskov-zivanov-lab/FIDDLE/HEAD)
 
 ### This interactive jupyter notebook walks you though all of the pertinent code and functions to:
 
@@ -46,7 +47,7 @@ FIDDLE (Finding Interactions using Diagram Driven modeL Extension) is a tool to 
 
 ### Using FIDDLE:
 
-_Unpublished -> to be updated once published. In the mean time, please site our simulator._
+Butchy, Adam A., Cheryl A. Telmer, Natasa Miskov-Zivanov. "Automating Knowledge-Driven Model Recommendation: Methodology, Evaluation, and Key Challenges." arXiv preprint arXiv:2301.11397 (2023).
 
 ### Using the DISH simulator:
 
@@ -57,53 +58,3 @@ _Sayed K, Kuo Y-H, Kulkarni A, Miskov-Zivanov N. Dish simulator: capturing dynam
 | Program             |     Grant Number |
 | ------------------- | ---------------: |
 | DARPA Big Mechanism | W911NF-17-1-0135 |
-
-## Useful Code
-
-### For automatically remaking Sphinx documentation:
-
-```
-cd docs
-make clean
-make html
-```
-
-Build and Run
-
-```
-docker build -t fiddle .
-docker run -p 8888:8888 -v $(pwd):/home/jovyan fiddle
-OR #tODO
-docker run -it -p 8888:8888 -u="jovyan" -v $(pwd):/home/jovyan fiddle
-OR #todo
-docker run -it --rm -p 8888:8888 fiddle jupyter notebook --NotebookApp.default_url=/lab/ --ip=0.0.0.0 --port=8888
-```
-
-List Docker images
-
-```
-docker images
-```
-
-Select correct container and copy the tag
-
-```
-docker tag <tag> aabutchy/fiddle:<versionname>
-docker push aabutchy/fiddle:<versionname>
-```
-
-where <tag> might look like = "7fb16f9f8b1d" (minus the quotes)
-and <versionname> might look like = "firstpush" (minus the quotes)
-
-Docker pull from container:
-
-```
-docker pull aabutchy/fiddle
-docker run -p 8888:8888 -v $(pwd):/home/jovyan aabutchy/fiddle:firstpush
-```
-
-example
-
-```
-docker run -p 8888:8888 -v $(pwd):/home/jovyan/work jupyter/minimal-notebook
-```

@@ -8,4 +8,7 @@ env/
 .jupyter/
 .local/
 .gitignore
-.vscode/
+.vscode
+.config
+Dockerfile_old
+README_old.md
