@@ -20,8 +20,8 @@ fonttools==4.27.1
 idna==3.4
 imagesize==1.4.1
 importlib-metadata==4.8.3
-ipykernel==6.19.2
-# ipykernel
+# ipykernel==6.19.2
+ipykernel
 ipython==8.7.0
 # ipython
 jedi==0.18.2

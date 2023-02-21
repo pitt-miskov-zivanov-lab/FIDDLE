@@ -136,3 +136,5 @@ dmypy.json
 .cache/
 .ipynb_checkpoints/
 .vscode/
+.vscode
+.config
