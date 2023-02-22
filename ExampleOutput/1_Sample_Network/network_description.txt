@@ -8,33 +8,33 @@ Specified 'attaching_edges' (only affects Type 5): 2
 -------------------- Actual Network Characteristics -------------------
 Number of Actual Nodes: 10
 Number of Directed Edges: 16
-Number of Positive Edges: 6
-Number of Negative Edges: 10
-Actual Probability of Positive Edges: 0.375
+Number of Positive Edges: 9
+Number of Negative Edges: 7
+Actual Probability of Positive Edges: 0.5625
 
 ----------------- Descriptive Network Characteristics -----------------
 Network Density: 0.17777777777777778
 Undirected Edges: 32
 Network Average Degree: 3.2
 Undirected Model Diameter: 3
-Undirected Model Clustering: 0.5347619047619048
+Undirected Model Clustering: 0.54
 
 ---------------------------- List of Edges ---------------------------
-['0', '1', '+']
-['0', '2', '-']
+['0', '1', '-']
+['0', '2', '+']
 ['0', '3', '-']
-['0', '4', '+']
-['0', '5', '-']
-['0', '7', '+']
-['0', '8', '+']
-['0', '9', '-']
-['1', '3', '-']
-['3', '4', '-']
+['0', '5', '+']
+['0', '7', '-']
+['1', '5', '+']
+['1', '6', '+']
+['2', '3', '+']
+['2', '4', '-']
+['2', '9', '+']
+['3', '4', '+']
 ['3', '6', '+']
 ['3', '7', '-']
-['4', '5', '-']
-['4', '8', '-']
-['5', '6', '+']
-['5', '9', '-']
+['3', '8', '-']
+['6', '8', '-']
+['6', '9', '+']
 
 
