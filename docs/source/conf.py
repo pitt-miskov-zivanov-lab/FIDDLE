@@ -14,7 +14,7 @@ sys.path.insert(0, os.path.abspath('../../FIDDLE/Simulator'))
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'FIDDLE'
-copyright = '2022, Adam A. Butchy'
+copyright = '2023, Adam A. Butchy, Miskov-Zivanov Lab (MeLoDy lab)'
 author = 'Adam A. Butchy'
 release = '0.0.1'
 

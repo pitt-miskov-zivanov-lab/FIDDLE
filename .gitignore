@@ -140,3 +140,4 @@ dmypy.json
 .config
 Dockerfile_old
 README_old.md
+requirements_old.txt
