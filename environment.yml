@@ -1,0 +1,7 @@
+dependencies:
+  - python
+  - pip
+  - pip:
+    - openpyxl
+    - networkx
+    - matplotlib

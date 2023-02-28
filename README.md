@@ -1,11 +1,11 @@
 # FIDDLE
 
+[![Documentation Status](https://readthedocs.org/projects/melody-fiddle/badge/?version=latest)](https://melody-fiddle.readthedocs.io/en/latest/?badge=latest)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pitt-miskov-zivanov-lab/FIDDLE/HEAD?labpath=%2Fexamples%2Fuse_FIDDLE.ipynb)
+
 ### (Finding Interactions using Diagram Driven modeL Extension)
 
 FIDDLE (Finding Interactions using Diagram Driven modeL Extension) is a tool to automatically assemble or extend models with the knowledge extracted from published literature. The two main methods developed as part of FIDDLE are called Breadth First Addition (BFA) and Depth First Addition (DFA), and they are based on network search algorithms.
-
-[![Documentation Status](https://readthedocs.org/projects/melody-fiddle/badge/?version=latest)](https://melody-fiddle.readthedocs.io/en/latest/?badge=latest)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pitt-miskov-zivanov-lab/FIDDLE/HEAD)
 
 ## Contents
 
@@ -33,8 +33,8 @@ FIDDLE (Finding Interactions using Diagram Driven modeL Extension) is a tool to 
 
 ## Tutorial
 
-- see [`Tutorial.ipynb`](Tutorial.ipynb)
-- also available on [`Binder`](https://mybinder.org/v2/gh/pitt-miskov-zivanov-lab/FIDDLE/HEAD)
+- see [`use_FIDDLE.ipynb`](examples/use_FIDDLE.ipynb)
+- also available on [`Binder`](https://mybinder.org/v2/gh/pitt-miskov-zivanov-lab/FIDDLE/HEAD?labpath=%2Fexamples%2Fuse_FIDDLE.ipynb)
 
 ### This interactive jupyter notebook walks you though all of the pertinent code and functions to:
 
@@ -55,6 +55,4 @@ _Sayed K, Kuo Y-H, Kulkarni A, Miskov-Zivanov N. Dish simulator: capturing dynam
 
 ## Funding
 
-| Program             |     Grant Number |
-| ------------------- | ---------------: |
-| DARPA Big Mechanism | W911NF-17-1-0135 |
+This work was funded in part by DARPA Big Mechanism award, AIMCancer (W911NF-17-1-0135); and in part by the University of Pittsburgh, Swanson School of Engineering.
