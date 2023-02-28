@@ -24,7 +24,7 @@ FIDDLE (Finding Interactions using Diagram Driven modeL Extension) is a tool to 
    ```
    cd FIDDLE
    python -m venv env
-   pip install -r requirements.txt
+   pip install -e .
    ```
 3. Activate the python virtual environment.
    ```
@@ -33,8 +33,7 @@ FIDDLE (Finding Interactions using Diagram Driven modeL Extension) is a tool to 
 
 ## Tutorial
 
-- see [`use_FIDDLE.ipynb`](examples/use_FIDDLE.ipynb)
-- also available on [`Binder`](https://mybinder.org/v2/gh/pitt-miskov-zivanov-lab/FIDDLE/HEAD?labpath=%2Fexamples%2Fuse_FIDDLE.ipynb)
+See [`use_FIDDLE.ipynb`](examples/use_FIDDLE.ipynb), it is also available on [Binder](https://mybinder.org/v2/gh/pitt-miskov-zivanov-lab/FIDDLE/HEAD?labpath=%2Fexamples%2Fuse_FIDDLE.ipynb)
 
 ### This interactive jupyter notebook walks you though all of the pertinent code and functions to:
 

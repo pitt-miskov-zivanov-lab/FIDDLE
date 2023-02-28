@@ -16,7 +16,7 @@ Navigate into the repo, create a microenvironment and install the requirements
 
  cd FIDDLE
  python -m venv env
- pip install -r requirements.txt
+ pip install -e .
 
 Activate the microenvironment
 
